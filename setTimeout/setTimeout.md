@@ -36,4 +36,4 @@ setInterval(function() {
 
 Это нормально, потому что время, затраченное на выполнение `func`, использует часть заданного интервала времени.
 
-![](setinterval-interval.svg) 
+![](settimeout-interval.svg) 
