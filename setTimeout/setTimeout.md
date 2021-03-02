@@ -41,11 +41,17 @@ setInterval(function() {
 ![](setinterval-interval.svg ) 
 
 Что бы это избежать можно использовать рекурсивный setTimeout()
-
+```js
+let i = 1;
+setTimeout(function run() {
+  func(i);
+  setTimeout(run, 100);
+}, 100);
+```
 Ниже представлен процесс работы рекурсивного setTimeout()
 
 ![](settimeout-interval.svg ) 
 
-РекурсивныйsetTimeout гарантирует фиксированную задержку (здесь 100 мс).
+Рекурсивный setTimeout() гарантирует фиксированную задержку (здесь 100 мс).
 
 Т.е сначала выполняем функцию, потом делаем задержку. 
