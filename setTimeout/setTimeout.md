@@ -44,7 +44,7 @@ setInterval(function() {
 
 Ниже представлен процесс работы рекурсивного setTimeout()
 
-![](settimeoutl-interval.svg ) 
+![](settimeout-interval.svg ) 
 
 РекурсивныйsetTimeout гарантирует фиксированную задержку (здесь 100 мс).
 
